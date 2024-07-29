@@ -21,7 +21,7 @@ export const Layout: FC = () => {
         <>
             <Outlet />
             <Tabbar style={{ backgroundColor: bgColor }}>
-                {tabs.map(({ id, text, Icon }) => (
+                {tabs.map(({ id, Icon }) => (
                     <Tabbar.Item
                         key={id}
                         selected={id === currentTab}
