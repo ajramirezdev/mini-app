@@ -3,7 +3,7 @@
     "private": true,
     "version": "0.0.1",
     "type": "module",
-    "homepage": ".",
+    "homepage": "https://ajramirezdev.github.io/mini-app",
     "scripts": {
         "deploy": "gh-pages -d dist",
         "dev": "vite",
